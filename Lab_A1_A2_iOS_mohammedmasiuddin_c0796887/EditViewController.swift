@@ -7,7 +7,7 @@
 
 import UIKit
 
-class EditViewController: UIViewController {
+class EditViewController: UIViewController,UITextFieldDelegate {
 
     @IBOutlet weak var nameOfProduct: UITextField!
 
@@ -17,17 +17,25 @@ class EditViewController: UIViewController {
     
     @IBOutlet weak var descriptionofproduct: UITextField!
     @IBOutlet weak var ProviderOfProduct: UITextField!
-    //    @IBOutlet weak var product_description: UITextField!
-//    @IBOutlet weak var provider_name: UITextField!
-//    
+    
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+
+    
     var prod_id: Int = 0
+    var tableview : UITableView?
     var product:Products?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        	
         print(prod_id)
-        print(product)
+        print(product?.product_name)
+        
+        nameOfProduct.delegate = self
+        idOfProduct.delegate = self
+        priceofproduct.delegate = self
+        descriptionofproduct.delegate = self
+        ProviderOfProduct.delegate = self
         
         nameOfProduct.text = product?.product_name
         idOfProduct.text = "\(product!.product_id)"
@@ -40,5 +48,37 @@ class EditViewController: UIViewController {
     }
     
 
-
+    @IBAction func saveButtonClicked(_ sender: Any) {
+        print("save dbutton clicked")
+        print(product)
+        product?.product_name = nameOfProduct.text
+        let price = Int(priceofproduct.text!)
+        product?.procduct_price = Int64(price!)
+        let uid = Int(idOfProduct.text!)
+        product?.product_id = Int64(uid!)
+        product?.product_description = descriptionofproduct.text
+        
+        let prov = Provider(context: context)
+        prov.name = ProviderOfProduct.text
+        product?.product_provider = prov
+        
+        do {
+            try context.save()
+        } catch { }
+        
+        tableview?.reloadData()
+        
+    }
+    
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        nameOfProduct.resignFirstResponder()
+        idOfProduct.resignFirstResponder()
+        priceofproduct.resignFirstResponder()
+        descriptionofproduct.resignFirstResponder()
+        ProviderOfProduct.resignFirstResponder()
+        
+        return true
+    }
 }

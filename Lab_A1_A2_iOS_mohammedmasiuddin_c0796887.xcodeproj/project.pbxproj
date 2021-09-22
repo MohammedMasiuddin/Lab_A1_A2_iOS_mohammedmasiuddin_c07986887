@@ -14,12 +14,14 @@
 		EA20709D26F82C0E00ABF238 /* Lab_A1_A2_iOS_mohammedmasiuddin_c0796887.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA20709B26F82C0E00ABF238 /* Lab_A1_A2_iOS_mohammedmasiuddin_c0796887.xcdatamodeld */; };
 		EA20709F26F82C0F00ABF238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA20709E26F82C0F00ABF238 /* Assets.xcassets */; };
 		EA2070A226F82C0F00ABF238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2070A026F82C0F00ABF238 /* LaunchScreen.storyboard */; };
+		EA517E0526FB7E7D00BF0CA3 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA517E0426FB7E7D00BF0CA3 /* NewViewController.swift */; };
 		EA6AD91C26F8E98300DCB200 /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD91B26F8E98300DCB200 /* ProductsTableViewCell.swift */; };
 		EA6AD92126F8F01200DCB200 /* Provider+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD91D26F8F01200DCB200 /* Provider+CoreDataClass.swift */; };
 		EA6AD92226F8F01200DCB200 /* Provider+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD91E26F8F01200DCB200 /* Provider+CoreDataProperties.swift */; };
 		EA6AD92326F8F01200DCB200 /* Products+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD91F26F8F01200DCB200 /* Products+CoreDataClass.swift */; };
 		EA6AD92426F8F01200DCB200 /* Products+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD92026F8F01200DCB200 /* Products+CoreDataProperties.swift */; };
 		EA6AD92626F91A1200DCB200 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD92526F91A1200DCB200 /* EditViewController.swift */; };
+		EAD6504726FBB35600D0F8E8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD6504626FBB35600D0F8E8 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +34,14 @@
 		EA20709E26F82C0F00ABF238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA2070A126F82C0F00ABF238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA2070A326F82C0F00ABF238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA517E0426FB7E7D00BF0CA3 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		EA6AD91B26F8E98300DCB200 /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
 		EA6AD91D26F8F01200DCB200 /* Provider+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Provider+CoreDataClass.swift"; sourceTree = "<group>"; };
 		EA6AD91E26F8F01200DCB200 /* Provider+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Provider+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		EA6AD91F26F8F01200DCB200 /* Products+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Products+CoreDataClass.swift"; sourceTree = "<group>"; };
 		EA6AD92026F8F01200DCB200 /* Products+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Products+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		EA6AD92526F91A1200DCB200 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		EAD6504626FBB35600D0F8E8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				EA20709B26F82C0E00ABF238 /* Lab_A1_A2_iOS_mohammedmasiuddin_c0796887.xcdatamodeld */,
 				EA6AD91B26F8E98300DCB200 /* ProductsTableViewCell.swift */,
 				EA6AD92526F91A1200DCB200 /* EditViewController.swift */,
+				EA517E0426FB7E7D00BF0CA3 /* NewViewController.swift */,
+				EAD6504626FBB35600D0F8E8 /* ListViewController.swift */,
 			);
 			path = Lab_A1_A2_iOS_mohammedmasiuddin_c0796887;
 			sourceTree = "<group>";
@@ -168,9 +174,11 @@
 			files = (
 				EA6AD92626F91A1200DCB200 /* EditViewController.swift in Sources */,
 				EA6AD92126F8F01200DCB200 /* Provider+CoreDataClass.swift in Sources */,
+				EAD6504726FBB35600D0F8E8 /* ListViewController.swift in Sources */,
 				EA20709726F82C0E00ABF238 /* ViewController.swift in Sources */,
 				EA6AD92226F8F01200DCB200 /* Provider+CoreDataProperties.swift in Sources */,
 				EA6AD91C26F8E98300DCB200 /* ProductsTableViewCell.swift in Sources */,
+				EA517E0526FB7E7D00BF0CA3 /* NewViewController.swift in Sources */,
 				EA20709D26F82C0E00ABF238 /* Lab_A1_A2_iOS_mohammedmasiuddin_c0796887.xcdatamodeld in Sources */,
 				EA20709326F82C0E00ABF238 /* AppDelegate.swift in Sources */,
 				EA20709526F82C0E00ABF238 /* SceneDelegate.swift in Sources */,
