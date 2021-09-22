@@ -22,6 +22,7 @@
 		EA6AD92426F8F01200DCB200 /* Products+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD92026F8F01200DCB200 /* Products+CoreDataProperties.swift */; };
 		EA6AD92626F91A1200DCB200 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6AD92526F91A1200DCB200 /* EditViewController.swift */; };
 		EAD6504726FBB35600D0F8E8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD6504626FBB35600D0F8E8 /* ListViewController.swift */; };
+		EAD6504926FBBCB100D0F8E8 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD6504826FBBCB100D0F8E8 /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		EA6AD92026F8F01200DCB200 /* Products+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Products+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		EA6AD92526F91A1200DCB200 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		EAD6504626FBB35600D0F8E8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		EAD6504826FBBCB100D0F8E8 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				EA6AD92526F91A1200DCB200 /* EditViewController.swift */,
 				EA517E0426FB7E7D00BF0CA3 /* NewViewController.swift */,
 				EAD6504626FBB35600D0F8E8 /* ListViewController.swift */,
+				EAD6504826FBBCB100D0F8E8 /* ListTableViewCell.swift */,
 			);
 			path = Lab_A1_A2_iOS_mohammedmasiuddin_c0796887;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				EA20709D26F82C0E00ABF238 /* Lab_A1_A2_iOS_mohammedmasiuddin_c0796887.xcdatamodeld in Sources */,
 				EA20709326F82C0E00ABF238 /* AppDelegate.swift in Sources */,
 				EA20709526F82C0E00ABF238 /* SceneDelegate.swift in Sources */,
+				EAD6504926FBBCB100D0F8E8 /* ListTableViewCell.swift in Sources */,
 				EA6AD92426F8F01200DCB200 /* Products+CoreDataProperties.swift in Sources */,
 				EA6AD92326F8F01200DCB200 /* Products+CoreDataClass.swift in Sources */,
 			);
